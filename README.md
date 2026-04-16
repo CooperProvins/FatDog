@@ -6,8 +6,9 @@
 - Owners of fat dogs
 ### Need
 - The dog obesity epidemic is undeniable and resilient.
-- This app provides realistic weight feedback to the dog parent, as dog obesity is a slow killer. They may not even know their dog qualifies.
-### Questions
+- This app provides realistic weight feedback to the dog parent, as dog obesity is a slow killer.
+  - They may not even know their dog qualifies, but it likely does.
+### Frequently Asked Questions
 - How fat is my dog actually?
   - Extremely
 - Am I a bad owner?

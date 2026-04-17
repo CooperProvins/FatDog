@@ -9,7 +9,7 @@ public class DogBreed {
     private double sigma;
     private double mean;
 
-    public DogBreed(int[] mWeights, int[] fWeights, String breedName){
+    public DogBreed(String breedName, int[] mWeights, int[] fWeights){
         assert (mWeights.length == 2)&&(fWeights.length == 2) : "length of weight array must be 2";
         this.mWeights = mWeights;
         this.fWeights = fWeights;

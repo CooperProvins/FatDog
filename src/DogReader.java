@@ -13,7 +13,11 @@ public class DogReader {
 
     private static String fileName = "DogBreedWeightData.csv";
     private static Scanner scanner;
-    static {
+
+    /**
+     * Method to setup scanner object and read csv and parse into dodBreeds list
+     */
+    public static void initialize(){
         try {
             scanner = new Scanner(new File(fileName));
         }
@@ -31,7 +35,6 @@ public class DogReader {
             );
         }
     }
-
     /**
      * Given name of dog breed, finds and returns dog breed from list
      * @param name

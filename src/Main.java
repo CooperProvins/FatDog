@@ -8,5 +8,7 @@ public class Main {
         int dogWeight;
         Sex dogSex;
         String dogBreed;
+
+        DogBreed.initialize();
     }
 }

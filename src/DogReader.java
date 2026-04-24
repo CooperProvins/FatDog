@@ -54,6 +54,11 @@ public class DogReader {
                 return breed;
             }
         }
+        for (DogBreed breed : dogBreeds){
+            if (breed.getName().toUpperCase().indexOf(name.toUpperCase()) != -1){
+                return breed;
+            }
+        }
         return null;
     }
 }

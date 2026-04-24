@@ -11,9 +11,7 @@
 ### Frequently Asked Questions
 - How fat is my dog actually?
   - Extremely
-- Am I a bad owner?
-  - Probably
-- Will my dog get skinnier?
+- Can my dog get skinnier?
   - We can try
 ## Design
 ### Frontend

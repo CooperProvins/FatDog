@@ -35,6 +35,14 @@ public class DogReader {
             );
         }
     }
+    public static void printList(){
+        for (DogBreed dog : dogBreeds){
+            dog.print();
+        }
+    }
+    public static ArrayList<DogBreed> getDogBreeds() {
+        return dogBreeds;
+    }
     /**
      * Given name of dog breed, finds and returns dog breed from list
      * @param name

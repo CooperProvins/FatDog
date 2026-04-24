@@ -16,6 +16,14 @@ public class DogBreed {
         this.breedName = breedName;
     }
 
+    @Override
+    public String toString(){
+        return "\t" + breedName + "\n\t\t mWeights:" + mWeights[0] + "-" + mWeights[1] + "\n\t\t fWeights:" + fWeights[0] + "-" + fWeights[1];
+    }
+    public void print(){
+        System.out.println(this.toString());
+    }
+
     /**
      * returns weight plugged into bell curve function
      * represents "popularity" of weight

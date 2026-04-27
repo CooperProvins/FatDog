@@ -10,11 +10,8 @@ public class Main {
         Sex dogSex;
         String dogBreed;
 
-        DogReader.initialize();
-        // DogBreed myDog = DogReader.getDogBreeds().get(6);
-        DogBreed myDog = DogReader.findDogBreed("Kai Ken");
-        System.out.println(myDog);
-        System.out.println(myDog.weightPercentile(Sex.MALE, 80));
-        System.out.println(PortionGenerator.getPortion());
+        for (int i : new int[10]){
+            System.out.println(PortionGenerator.getPortion());
+        }
     }
 }

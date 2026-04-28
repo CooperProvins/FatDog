@@ -6,13 +6,13 @@ public enum Sex {
     FEMALE;
 
     /**
-     * Parses a string into a Sex enum value (case-insensitive)
+     * Parses a string into a Sex enum value
      * Accepts: "male", "boy", "man", "female", "girl", "woman"
      * @param input the string to parse
      * @return the corresponding Sex enum value
      */
     public static Sex parse(String input) {
-        assert !input.equals(null): "Sex parse input can not be null";
+        assert input != null : "Sex parse input can not be null";
 
         String normalized = input.toUpperCase().trim();
 

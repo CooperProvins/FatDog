@@ -12,10 +12,12 @@ public class Main {
         int dogWeight;
         Sex dogSex;
         String dogBreedInput;
+        double percentile;
 
         DogBreed dogBreed;
 
         Scanner input = new Scanner(System.in);
+        DogReader.initialize();
 
         System.out.println("What breed is your dog?");
         dogBreedInput = input.nextLine();
@@ -26,5 +28,8 @@ public class Main {
         System.out.println("What is your dog's weight? (lbs)");
         dogWeight = input.nextInt();
 
+        percentile = dogBreed.weightPercentile(dogSex,dogWeight);
+        System.out.println(Math.round(percentile*10000)/100.0+"%");
+        System.out.println(PortionGenerator.getPortion(percentile));
     }
 }

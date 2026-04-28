@@ -60,7 +60,7 @@ public class DogReader {
             }
         }
         for (DogBreed breed : dogBreeds){
-            if (breed.getName().toUpperCase().indexOf(name.toUpperCase()) != -1){
+            if (breed.getName().toUpperCase().contains(name.toUpperCase())){
                 return breed;
             }
         }

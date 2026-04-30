@@ -33,7 +33,7 @@ public class PortionGenerator {
      */
     public static String getPortion(double percentile){
         assert (percentile>=0)&&(percentile<=1) : "percentile must be between 0 and 1";
-        double abundance = percentile;
+        double abundance = 1-percentile;
         int measurementType = (int)(Math.random()*measurements.length);
         int amount = (int)(Math.pow(2, measurementType + 1)*abundance+1);
         String measurement = measurements[measurementType];
